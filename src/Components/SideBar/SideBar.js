@@ -4,6 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../images/llggoo.png'
 import Application from './Application';
+import Components from './Components';
 import Pages from './Pages';
 const SideBar = ({open,handler}) => {
     return (
@@ -38,7 +39,7 @@ const SideBar = ({open,handler}) => {
         </div>
         <div className='my-3'>
         <h6 className='text-slate-200 text-left mb-2 text-sm'>COMPONENTS</h6>
-        <Pages handler={handler}/>
+        <Components handler={handler}/>
             
         </div>
        

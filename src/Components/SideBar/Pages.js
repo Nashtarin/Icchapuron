@@ -14,7 +14,7 @@ const Pages = ({handler}) => {
     
     return (
         <div>
-               <Link onClick={handler} to='/chat'>
+  <Link onClick={handler} to='/chat'>
      <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
         
      <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
