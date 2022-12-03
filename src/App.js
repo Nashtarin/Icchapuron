@@ -13,6 +13,13 @@ import Todo from './Pages/Todo/Todo';
 import Calender from './Pages/Calender/Calender';
 import Chat from './Pages/Chat/Chat';
 import UserProfile from './Pages/UserProfile/UserProfile';
+import Login from './Pages/Login/Login';
+import Register from './Pages/Register/Register';
+import ResetPassword from './Pages/ResetPassword/ResetPassword';
+import ConfirmEmail from './Pages/ConfirmEmail/ConfirmEmail';
+import LockScreen from './Pages/LockScreen/LockScreen';
+import Error404 from './Pages/Error404/Error404';
+import Error500 from './Pages/Error500/Error500';
 
 function App() {
   return (
@@ -29,13 +36,13 @@ function App() {
         <Route path='/chat' element={<Chat/>}/>
         <Route path='/userprofile' element={<UserProfile/>}/>
         <Route path='/calender' element={<Calender/>}/>
-        <Route path='/calender' element={<Calender/>}/>
-        <Route path='/calender' element={<Calender/>}/>
-        <Route path='/calender' element={<Calender/>}/>
-        <Route path='/calender' element={<Calender/>}/>
-        <Route path='/calender' element={<Calender/>}/>
-        <Route path='/calender' element={<Calender/>}/>
-        <Route path='/calender' element={<Calender/>}/>
+       <Route path='/login' element={<Login/>}/>
+        <Route path='/register' element={<Register/>}/>
+        <Route path='/resetpassword' element={<ResetPassword/>}/>
+        <Route path='/confirmemail' element={<ConfirmEmail/>}/>
+        <Route path='/lockscreen' element={<LockScreen/>}/>
+        <Route path='/error404' element={<Error404/>}/>
+        <Route path='/error500' element={<Error500/>}/>
       
       </Routes>
       </Router>
