@@ -56,6 +56,8 @@ import FormQuill from './Pages/FormQuill/FormQuill';
 import BasicTable from './Pages/BasicTable/BasicTable';
 import DataTable from './Pages/DataTable/DataTable';
 import EditableTable from './Pages/EditableTable/EditableTable';
+import Chart from './Pages/Chart/Chart';
+import Icon from './Pages/Icon/Icon';
 
 function App() {
   return (
@@ -116,6 +118,8 @@ function App() {
         <Route path='/basictable' element={<BasicTable/>}/>
         <Route path='/datatable' element={<DataTable/>}/>
         <Route path='/editabletable' element={<EditableTable/>}/>
+        <Route path='/chart' element={<Chart/>}/>
+        <Route path='/icon' element={<Icon/>}/>
         <Route path='/formtextarea' element={<FormTextArea/>}/>
       </Routes>
       </Router>
