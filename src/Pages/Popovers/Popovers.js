@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/popovers.png'
 
 const Popovers = () => {
     return (
         <div>
-            <h1>This is Popovers</h1>
+         <img src={pic} alt="" />
         </div>
     );
 };

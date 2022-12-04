@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/todo.png'
 
 const Todo = () => {
     return (
         <div>
-            <h1>This is TODO</h1>
+          <img src={pic} alt="" />
         </div>
     );
 };

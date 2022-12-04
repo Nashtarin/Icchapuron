@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/error500.png'
 
 const Error500 = () => {
     return (
         <div>
-            <h1>This is Error 500</h1>
+             <img src={pic} alt="" />
         </div>
     );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/datepicker.png'
 
 const DatePicker = () => {
     return (
         <div>
-           <h1>This is datepicker</h1>
+    <img src={pic} alt="" />
         </div>
     );
 };

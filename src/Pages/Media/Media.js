@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/media.png'
 
 const Media = () => {
     return (
         <div>
-            <h1>This is Media</h1>
+          <img src={pic} alt="" />
         </div>
     );
 };

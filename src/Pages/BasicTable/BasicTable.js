@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/basictable.png'
 
 const BasicTable = () => {
     return (
         <div>
-            <h1>This is Basic Table</h1>
+           <img src={pic} alt="" />
         </div>
     );
 };

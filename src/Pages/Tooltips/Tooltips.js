@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/tooltips.png'
 
 const Tooltips = () => {
     return (
         <div>
-            <h1>This is Tooltips</h1>
+           <img src={pic} alt="" />
         </div>
     );
 };

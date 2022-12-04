@@ -58,6 +58,12 @@ import DataTable from './Pages/DataTable/DataTable';
 import EditableTable from './Pages/EditableTable/EditableTable';
 import Chart from './Pages/Chart/Chart';
 import Icon from './Pages/Icon/Icon';
+import Timeline from './Pages/Timeline/Timeline';
+import FAQ from './Pages/FAQ/FAQ';
+import BlankPage from './Pages/BlankPage/BlankPage';
+import Maintenance from './Pages/Maintenance/Maintenance';
+import ComingSoon from './Pages/ComingSoon/ComingSoon';
+import Grid from './Pages/Grid/Grid';
 
 function App() {
   return (
@@ -73,6 +79,12 @@ function App() {
         <Route path='/invoice' element={<Invoice/>}/>
         <Route path='/todo' element={<Todo/>}/>
         <Route path='/chat' element={<Chat/>}/>
+        <Route path='/timeline' element={<Timeline/>}/>
+        <Route path='/faq' element={<FAQ/>}/>
+        <Route path='/pricing' element={<FAQ/>}/>
+        <Route path='/blankpage' element={<BlankPage/>}/>
+        <Route path='/maintenance' element={<Maintenance/>}/>
+        <Route path='/comingsoon' element={<ComingSoon/>}/>
         <Route path='/userprofile' element={<UserProfile/>}/>
         <Route path='/calender' element={<Calender/>}/>
        <Route path='/login' element={<Login/>}/>
@@ -89,6 +101,8 @@ function App() {
         <Route path='/buttons' element={<Buttons/>}/>
         <Route path='/buttonsgroup' element={<ButtonsGroup/>}/>
         <Route path='/boxshadow' element={<BoxShadow/>}/>
+        <Route path='/grid' element={<Grid/>}/>
+
        
         <Route path='/colors' element={<Colors/>}/>
         <Route path='/cards' element={<Cards/>}/>

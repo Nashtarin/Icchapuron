@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/modal.png'
 
 const Modal = () => {
     return (
         <div>
-            <h1>This is Modal</h1>
+             <img src={pic} alt="" />
         </div>
     );
 };

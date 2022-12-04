@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/listgroup.png'
 
 const ListGroup = () => {
     return (
         <div>
-            <h1>This is ListGroup</h1>
+             <img src={pic} alt="" />
         </div>
     );
 };

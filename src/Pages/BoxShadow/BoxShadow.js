@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/boxshadow.png'
 
 const BoxShadow = () => {
     return (
         <div>
-            <h1>This is Box Shadow</h1>
+          <img src={pic} alt="" />
         </div>
     );
 };

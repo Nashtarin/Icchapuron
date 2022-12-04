@@ -1,9 +1,11 @@
 import React from 'react';
+import pic from '../../images/error404.png'
 
 const Error404 = () => {
+   
     return (
         <div>
-            <h1>This is 404</h1>
+             <img src={pic} alt="" />
         </div>
     );
 };

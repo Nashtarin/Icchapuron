@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/dashboard.png'
 
 const DashBoard = () => {
     return (
         <div>
-            <h1>This is DashBoard</h1>
+         <img src={pic} alt="" />
         </div>
     );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/chart.png'
 
 const Chart = () => {
     return (
         <div>
-            <h1>This is Chart</h1>
+            <img src={pic} alt="" />
         </div>
     );
 };

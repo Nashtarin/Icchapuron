@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/icon.png'
 
 const Icon = () => {
     return (
         <div>
-            <h1>This is Icon</h1>
+           <img src={pic} alt="" />
         </div>
     );
 };

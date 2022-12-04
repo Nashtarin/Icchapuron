@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/datatable.png'
 
 const DataTable = () => {
     return (
         <div>
-           <h1>This is Data Table</h1> 
+           <img src={pic} alt="" />
         </div>
     );
 };

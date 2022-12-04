@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/badges.png'
 
 const Badges = () => {
     return (
         <div>
-            <h1>This is BAdges</h1>
+             <img src={pic} alt="" />
         </div>
     );
 };

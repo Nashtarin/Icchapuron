@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/breadcrumb.png'
 
 const BreadCrumb = () => {
     return (
         <div>
-            <h1>This is breadcrumb</h1>
+           <img src={pic} alt="" />
         </div>
     );
 };

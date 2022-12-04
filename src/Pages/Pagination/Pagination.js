@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/pagination.png'
 
 const Pagination = () => {
     return (
         <div>
-            <h1>This is Pagination</h1>
+           <img src={pic} alt="" />
         </div>
     );
 };

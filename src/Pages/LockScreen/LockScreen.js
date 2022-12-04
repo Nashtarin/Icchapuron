@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/lockscreen.png'
 
 const LockScreen = () => {
     return (
         <div>
-            <h1>This is Lock Screen</h1>
+            <img src={pic} alt="" />
         </div>
     );
 };

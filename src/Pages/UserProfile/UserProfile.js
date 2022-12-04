@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/userprofile.png'
 
 const UserProfile = () => {
     return (
         <div>
-            <h1>This is user Profile</h1>
+             <img src={pic} alt="" />
         </div>
     );
 };

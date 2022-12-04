@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/formCheckbox.png'
 
 const FormCheckbox = () => {
     return (
         <div>
-            <h1>This is form checkbox</h1>
+            <img src={pic} alt="" />
         </div>
     );
 };

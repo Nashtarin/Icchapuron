@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/resetpassword.png'
 
 const ResetPassword = () => {
     return (
         <div>
-            <h1>This is Reset Password</h1>
+          <img src={pic} alt="" />
         </div>
     );
 };

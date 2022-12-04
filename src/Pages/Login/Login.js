@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/login.png'
 
 const Login = () => {
     return (
         <div>
-           <h1>This is Login</h1> 
+             <img src={pic} alt="" />
         </div>
     );
 };

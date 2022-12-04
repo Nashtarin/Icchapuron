@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/formTextarea.png'
 
 const FormTextArea = () => {
     return (
         <div>
-            <h1>This is form text area</h1>
+              <img src={pic} alt="" />
         </div>
     );
 };

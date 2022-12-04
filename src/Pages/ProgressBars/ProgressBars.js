@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/progressbar.png'
 
 const ProgressBars = () => {
     return (
         <div>
-            <h1>This is Progress Bars</h1>
+             <img src={pic} alt="" />
         </div>
     );
 };

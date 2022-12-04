@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/formSwitch.png'
 
 const FormSwitch = () => {
     return (
         <div>
-            <h1>This is form switch</h1>
+              <img src={pic} alt="" />
         </div>
     );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/fileupload.png'
 
 const FileUpload = () => {
     return (
         <div>
-            <h1>This is fileupload</h1>
+           <img src={pic} alt="" />
         </div>
     );
 };

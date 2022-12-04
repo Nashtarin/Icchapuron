@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/notification.png'
 
 const Notification = () => {
     return (
         <div>
-            <h1>This is Notification</h1>
+           <img src={pic} alt="" />
         </div>
     );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/select2.png'
 
 const Select2 = () => {
     return (
         <div>
-            <h1>This is select2</h1>
+            <img src={pic} alt="" />
         </div>
     );
 };

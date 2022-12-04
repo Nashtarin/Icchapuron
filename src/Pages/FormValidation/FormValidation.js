@@ -1,9 +1,11 @@
 import React from 'react';
+import pic from '../../images/formVVla.png'
 
 const FormValidation = () => {
     return (
         <div>
-            <h1>This is form validation</h1>
+             <img src={pic} alt="" />
+      
         </div>
     );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/confirmemail.png'
 
 const ConfirmEmail = () => {
     return (
         <div>
-            <h1>This is confirmemail</h1>
+      <img src={pic} alt="" />
         </div>
     );
 };

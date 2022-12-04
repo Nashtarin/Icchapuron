@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/formquill.png'
 
 const FormQuill = () => {
     return (
         <div>
-            <h1>This is Form Quill</h1>
+             <img src={pic} alt="" />
         </div>
     );
 };

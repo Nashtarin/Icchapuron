@@ -1,9 +1,10 @@
 import React from 'react';
+import pic from '../../images/chat.png'
 
 const Chat = () => {
     return (
         <div>
-            <h1>This is chat</h1>
+            <img src={pic} alt="" />
         </div>
     );
 };
