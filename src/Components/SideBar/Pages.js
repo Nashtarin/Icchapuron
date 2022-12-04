@@ -7,9 +7,14 @@ import Error from './Error';
 
 const Pages = ({handler}) => {
     const [arrow,setArrow]=useState(false)
+    const [foarrow,setfoArrow]=useState(false)
   
     const arrowHandler=()=>{
         setArrow(!arrow)
+
+    }
+    const foarrowHandler=()=>{
+        setfoArrow(!foarrow)
     }
     
     return (
@@ -35,8 +40,8 @@ const Pages = ({handler}) => {
         <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
                                   </svg>
-            <span className='text-slate-200  ml-2 mt-1'>Authentication</span>
-            {arrow?<span onClick={arrowHandler} className='p-1 ml-2'><FontAwesomeIcon icon={faArrowDown}/></span>   :<span onClick={arrowHandler} className='p-1 ml-2'><FontAwesomeIcon icon={faArrowRight}/></span>}
+            <span className='text-slate-200  ml-5 mt-1'>Authentication</span>
+            {arrow?<span onClick={arrowHandler} className='mt-1 p-2 ml-2 text-xs'><FontAwesomeIcon icon={faArrowDown}/></span>   :<span onClick={arrowHandler} className='mt-1 p-2 ml-2 text-xs'><FontAwesomeIcon icon={faArrowRight}/></span>}
             <br/>
             
           
@@ -47,13 +52,13 @@ const Pages = ({handler}) => {
         <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636a9 9 0 010 12.728m0 0l-2.829-2.829m2.829 2.829L21 21M15.536 8.464a5 5 0 010 7.072m0 0l-2.829-2.829m-4.243 2.829a4.978 4.978 0 01-1.414-2.83m-1.414 5.658a9 9 0 01-2.167-9.238m7.824 2.167a1 1 0 111.414 1.414m-1.414-1.414L3 3m8.293 8.293l1.414 1.414"></path>
                                           </svg>
-            <span className='text-slate-200  ml-4 mt-1'>Error</span>
-            {arrow?<span onClick={arrowHandler} className='px-6 ml-16'><FontAwesomeIcon icon={faArrowDown}/></span>   :<span onClick={arrowHandler} className='px-7 ml-10'><FontAwesomeIcon icon={faArrowRight}/></span>}
+            <span className='text-slate-200  ml-6 mt-1'>Error</span>
+            {foarrow?<span onClick={foarrowHandler} className='px-8 mt-2 ml-16 text-xs'><FontAwesomeIcon icon={faArrowDown}/></span>   :<span onClick={foarrowHandler} className='px-8 mt-2 ml-10 text-xs'><FontAwesomeIcon icon={faArrowRight}/></span>}
             <br/>
             
           
         </div>
-        {arrow &&  <Error handler={handler}/>}
+        {foarrow &&  <Error handler={handler}/>}
         <Link onClick={handler} to='/comingsoon'>
      <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
         

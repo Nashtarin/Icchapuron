@@ -42,6 +42,20 @@ import Typography from './Pages/Typography/Typography';
 import Tabs from './Pages/Tabs/Tabs';
 import Tooltips from './Pages/Tooltips/Tooltips';
 import Video from './Pages/Video/Video';
+import FormElements from './Pages/FormElements/FormElements';
+import FormInput from './Pages/FormInput/FormInput';
+import FormValidation from './Pages/FormValidation/FormValidation';
+import FormSwitch from './Pages/FormSwitch/FormSwitch';
+import FormCheckbox from './Pages/FormCheckbox/FormCheckbox';
+import FormRadio from './Pages/FormRadio/FormRadio';
+import FormTextArea from './Pages/FormTextArea/FormTextArea';
+import DatePicker from './Pages/DatePicker/DatePicker';
+import Select2 from './Pages/Select2/Select2';
+import FileUpload from './Pages/FileUpload/FileUpload';
+import FormQuill from './Pages/FormQuill/FormQuill';
+import BasicTable from './Pages/BasicTable/BasicTable';
+import DataTable from './Pages/DataTable/DataTable';
+import EditableTable from './Pages/EditableTable/EditableTable';
 
 function App() {
   return (
@@ -89,7 +103,20 @@ function App() {
         <Route path='/tabs' element={<Tabs/>}/>
         <Route path='/tooltips' element={<Tooltips/>}/>
         <Route path='/video' element={<Video/>}/>
-      
+        <Route path='/formelements' element={<FormElements/>}/>
+        <Route path='/forminput' element={<FormInput/>}/>
+        <Route path='/formvalidation' element={<FormValidation/>}/>
+        <Route path='/formswitch' element={<FormSwitch/>}/>
+        <Route path='/formcheckbox' element={<FormCheckbox/>}/>
+        <Route path='/formradio' element={<FormRadio/>}/>
+        <Route path='/datepicker' element={<DatePicker/>}/>
+        <Route path='/select2' element={<Select2/>}/>
+        <Route path='/fileupload' element={<FileUpload/>}/>
+        <Route path='/formquill' element={<FormQuill/>}/>
+        <Route path='/basictable' element={<BasicTable/>}/>
+        <Route path='/datatable' element={<DataTable/>}/>
+        <Route path='/editabletable' element={<EditableTable/>}/>
+        <Route path='/formtextarea' element={<FormTextArea/>}/>
       </Routes>
       </Router>
   
