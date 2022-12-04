@@ -3,12 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../images/llggoo.png'
+
 import Application from './Application';
 import Components from './Components';
 import Pages from './Pages';
 const SideBar = ({handler}) => {
     return (
-        <div  className="fixed z-40 h-screen p-4 overflow-y-scroll bg-cyan-900 w-64" >
+        <div  className="fixed  z-40 h-screen p-4 overflow-y-scroll bg-cyan-900 w-66" >
        
         <img src={logo} alt="" />
         <button onClick={handler}type="button" data-drawer-dismiss="drawer-navigation" aria-controls="drawer-navigation" className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" >

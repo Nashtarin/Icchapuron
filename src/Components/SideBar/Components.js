@@ -45,8 +45,8 @@ const Components = ({handler}) => {
           <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
         
         <FontAwesomeIcon className='mt-1' icon={faFileWaveform}/>
-       <span className='text-slate-200  mx-8'>Table</span>
-       {tarrow?<span onClick={tarrowHandler} className='px-9 ml-2 text-xs'><FontAwesomeIcon icon={faArrowDown}/></span>:<span onClick={tarrowHandler} className='px-9 ml-2 text-xs'><FontAwesomeIcon icon={faArrowRight}/></span>}
+       <span className='text-slate-200 ml-2'>Table</span>
+       {tarrow?<span onClick={tarrowHandler} className='px-6 ml-2 text-xs'><FontAwesomeIcon icon={faArrowDown}/></span>:<span onClick={tarrowHandler} className='px-6 ml-2 text-xs'><FontAwesomeIcon icon={faArrowRight}/></span>}
        <br/>
        
      
@@ -58,7 +58,7 @@ const Components = ({handler}) => {
         
  
             <span className='text-slate-200 '>Chart</span>
-            <span className='px-7 ml-12'></span>
+            <span className='px-8 ml-7'></span>
         </div></Link>
    <Link onClick={handler} to='/icon'>
      <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
@@ -66,7 +66,7 @@ const Components = ({handler}) => {
         
  
             <span className='text-slate-200 '>Icon</span>
-            <span className='px-8 ml-12'></span>
+            <span className='px-8 ml-9'></span>
         </div></Link>
 
         </div>

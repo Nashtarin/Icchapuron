@@ -10,7 +10,7 @@ const UIElements = ({handler}) => {
 <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
    
 <FontAwesomeIcon className='mt-1' icon={faUserCircle}/>
-       <span className='text-slate-200 '>Avatars</span>
+       <span className='text-slate-200 ml-1 '>Avatars</span>
        <span className='px-6 ml-10'></span>
    </div></Link>
   
@@ -19,7 +19,7 @@ const UIElements = ({handler}) => {
    
 
       <FontAwesomeIcon className='mt-1' icon={faTag}/>                                    
-       <span className='text-slate-200'>Alerts</span>
+       <span className='text-slate-200 ml-3'>Alerts</span>
        <span className='px-8 ml-10'></span>
    </div></Link>
     <Link onClick={handler} to='/badges'>
@@ -27,7 +27,7 @@ const UIElements = ({handler}) => {
    
 
       <FontAwesomeIcon className='mt-1' icon={faIdBadge}/>                                    
-      <span className='text-slate-200'>Badges</span>
+      <span className='text-slate-200 ml-3'>Badges</span>
        <span className='ml-1 px-11'></span>
    </div></Link>
     <Link onClick={handler} to='/breadcrumb'>
@@ -36,14 +36,14 @@ const UIElements = ({handler}) => {
 
 
        <FontAwesomeIcon className='mt-1' icon={faBars}/>
-       <span className='text-slate-200 '>Breadcrumb</span>
+       <span className='text-slate-200 ml-4 '>Breadcrumb</span>
        <span className='px-3 ml-10'></span>
    </div></Link>
     <Link onClick={handler} to='/buttons'>
 <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
    
   <FontAwesomeIcon className='mt-1' icon={faMobileButton}/>       
-  <span className='text-slate-200  '>Buttons</span>
+  <span className='text-slate-200 ml-5 '>Buttons</span>
        <span className='px-7 ml-10'></span>
    </div></Link>
     <Link onClick={handler} to='/buttonsgroup'>
@@ -51,14 +51,14 @@ const UIElements = ({handler}) => {
    
 <FontAwesomeIcon className='mt-1' icon={faTabletButton}/>
        <span className='text-slate-200  '>Buttons Group</span>
-       <span className='px-1 ml-10'></span>
+       <span className='px-1 ml-5'></span>
    </div></Link>
     <Link onClick={handler} to='/boxshadow'>
 <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
    
 <FontAwesomeIcon className='mt-1' icon={faBoxesStacked}/>
        <span className='text-slate-200  '>Box Shadow</span>
-       <span className='px-2 ml-10'></span>
+       <span className='px-3 ml-5'></span>
    </div></Link>
    <Link onClick={handler} to='/colors'>
 <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
@@ -78,21 +78,21 @@ const UIElements = ({handler}) => {
 <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
    
 <FontAwesomeIcon className='mt-1' icon={faFilm}/>
-       <span className='text-slate-200'>Carousel</span>
+       <span className='text-slate-200 ml-1'>Carousel</span>
        <span className='px-4 ml-10'></span>
    </div></Link>
    <Link onClick={handler} to='/grid'>
 <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
    
 <FontAwesomeIcon className='mt-1' icon={faBoxesStacked}/>
-       <span className='text-slate-200 '>Grid</span>
+       <span className='text-slate-200 ml-1 '>Grid</span>
        <span className='px-8 ml-10'></span>
    </div></Link>
    <Link onClick={handler} to='/image'>
 <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
    
 <FontAwesomeIcon className='mt-1' icon={faImage}/>
-       <span className='text-slate-200 '>Image</span>
+       <span className='text-slate-200 ml-1'>Image</span>
        <span className='px-6 ml-10'></span>
    </div></Link>
    <Link onClick={handler} to='/listgroup'>
@@ -100,7 +100,7 @@ const UIElements = ({handler}) => {
    
 <FontAwesomeIcon className='mt-1' icon={faList}/>
        <span className='text-slate-200 '>List Group</span>
-       <span className='px-3 ml-10'></span>
+       <span className='px-4 ml-5'></span>
    </div></Link>
    <Link onClick={handler} to='/media'>
 <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
@@ -134,7 +134,7 @@ const UIElements = ({handler}) => {
 <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
    
 <FontAwesomeIcon className='mt-1' icon={faArrowAltCircleUp}/>
-       <span className='text-slate-200'>Popovers</span>
+       <span className='text-slate-200 ml-1'>Popovers</span>
        <span className='px-4 ml-10'></span>
    </div></Link>
    <Link onClick={handler} to='/progressbars'>
@@ -142,27 +142,27 @@ const UIElements = ({handler}) => {
    
 <FontAwesomeIcon className='mt-1' icon={faBarsProgress}/>
        <span className='text-slate-200 '>Progress Bars</span>
-       <span className='px-0.5 ml-10'></span>
+       <span className='px-0.5 ml-6'></span>
    </div></Link>
    <Link onClick={handler} to='/typography'>
 <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
    
 <FontAwesomeIcon className='mt-1' icon={faQrcode}/>
-       <span className='text-slate-200 '>Typography</span>
+       <span className='text-slate-200 ml-1'>Typography</span>
        <span className='px-1.5 ml-10'></span>
    </div></Link>
    <Link onClick={handler} to='/tabs'>
 <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
    
 <FontAwesomeIcon className='mt-1' icon={faCubesStacked}/>
-       <span className='text-slate-200 '>Tabs</span>
+       <span className='text-slate-200 ml-1'>Tabs</span>
        <span className='px-8 ml-10'></span>
    </div></Link>
    <Link onClick={handler} to='/tooltips'>
 <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
    
 <FontAwesomeIcon className='mt-1' icon={faFileArchive}/>
-       <span className='text-slate-200 '>Tooltips</span>
+       <span className='text-slate-200 ml-1'>Tooltips</span>
        <span className='px-5 ml-10'></span>
    </div></Link>
    <Link onClick={handler} to='/video'>

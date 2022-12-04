@@ -33,7 +33,7 @@ const FormWidget = ({handler}) => {
    
 <FontAwesomeIcon className='mt-1' icon={faFileInvoice}/>
        <span className='text-slate-200 '>Form Quill</span>
-       <span className='px-5 ml-2'></span>
+       <span className='px-5 ml-3'></span>
    </div></Link>
 
         </div>

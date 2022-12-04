@@ -14,7 +14,7 @@ const Form = ({handler}) => {
         setfoArrow(!foarrow)
     }
     return (
-        <div className='ml-16'>
+        <div className='ml-6'>
             <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
         
         <FontAwesomeIcon className='mt-1' icon={faMobile}/>

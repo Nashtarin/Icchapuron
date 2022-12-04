@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Error = ({handler}) => {
     return (
-        <div className='ml-12'>
+        <div className='ml-16'>
              <Link onClick={handler} to='/error404'>
      <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
         

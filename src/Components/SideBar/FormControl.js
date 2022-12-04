@@ -32,7 +32,7 @@ const FormControl = ({handler}) => {
    
 <FontAwesomeIcon className='mt-1' icon={faArrowRightArrowLeft}/>
        <span className='text-slate-200 '>Form Switch</span>
-       <span className='px-2 ml-2'></span>
+       <span className='px-2 ml-4'></span>
    </div></Link>
         <Link onClick={handler} to='/formcheckbox'>
 <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
@@ -46,14 +46,14 @@ const FormControl = ({handler}) => {
    
 <FontAwesomeIcon className='mt-1' icon={faCheckCircle}/>
        <span className='text-slate-200 '>Form Radio</span>
-       <span className='px-3 ml-3'></span>
+       <span className='px-3 ml-5'></span>
    </div></Link>
         <Link onClick={handler} to='/formtextarea'>
 <div className='flex justify-between rounded-md  hover:bg-cyan-800 p-1'>
    
 <FontAwesomeIcon className='mt-1' icon={faFileCirclePlus}/>
        <span className='text-slate-200 '>Form Textarea</span>
-       <span className='px-2 ml-1'></span>
+       <span className='px-2 ml-3'></span>
    </div></Link>
     </div>
     );
